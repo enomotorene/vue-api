@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <router-link class="navbar-brand js-scroll-trigger" to="/">Start Bootstrap</router-link>
+      <router-link class="navbar-brand js-scroll-trigger" to="/">Open Innovation</router-link>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -33,7 +33,7 @@ export default {
       },
       {
       name: 'Portfolio',
-      path: '#portfolip'
+      path: '#portfolipo'
       },
       {
       name: 'About',
@@ -50,6 +50,14 @@ export default {
       {
       name: 'Blog',
       path: '/Blog'
+      },
+      {
+      name: 'Log in',
+      path: '/Login'
+      },
+      {
+      name: 'Sign Up',
+      path: '/Signup'
       }
     ]
   })
@@ -59,5 +67,15 @@ export default {
 <style scoped>
 #mainNav.navbar { /*increasing specificity*/
   background: rgba(0, 0, 0, 0.5);
+  color: cadetblue;
+}
+
+/* #mainNav.navbar-brand {
+  color: cadetblue;
+} */
+
+#mainNav .navbar-toggler {
+background-color: #fff;
+color: #000272;
 }
 </style>

@@ -20,6 +20,16 @@ const router = new VueRouter({
             path: '/blog',
             name: 'Blog',
             component: load('Blog')
+        },
+        {
+            path: '/login',
+            name: 'Login',
+            component: load('Login')
+        },
+        {
+            path: '/signup',
+            name: 'Signup',
+            component: load('Signup')
         }
     ]
 })
