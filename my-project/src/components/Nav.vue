@@ -48,12 +48,12 @@ export default {
       path: '#contact'
       },
       {
-      name: 'Blog',
-      path: '/Blog'
+      name: 'About',
+      path: '/About'
       },
       {
-      name: 'Log in',
-      path: '/Login'
+      name: 'Sign in',
+      path: '/Signin'
       },
       {
       name: 'Sign Up',

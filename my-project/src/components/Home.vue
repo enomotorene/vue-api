@@ -25,10 +25,10 @@
      </div>
     </div>  -->
    <!-- Portfolio Grid -->
-   <Portfolio></Portfolio> <!--- this is a component --->
+  <Portfolio></Portfolio> <!--- this is a component --->
 
   <!-- About -->
-  <About></About> <!--- this is a component --->
+  <!-- <About></About> --> <!--- this is a component --->
 
   <!-- Team -->
  <Team></Team>
@@ -40,7 +40,7 @@
   <Contact></Contact>
 
   <!-- Footer -->
-  <Footer></Footer>
+  <!-- <Footer></Footer> -->
 
   <!-- Portfolio Modals -->
   <Modals></Modals>
@@ -49,7 +49,6 @@
 
 <script>
 import Header from './Header'
-
 import Service from './Service'
 import Portfolio from './Portfolio'
 import About from './About'

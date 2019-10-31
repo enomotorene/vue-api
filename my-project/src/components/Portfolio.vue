@@ -9,14 +9,14 @@
       </div>
       <div class="row">
 
-       <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfoliJSON" :key="key">
+       <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <i class="fas fa-plus fa-3x"></i>
               </div>
             </div>
-            <img class="img-fluid" src="img/portfolio/02-thumbnail.jpg" alt="">
+            <img v-for="image in imageArray" :src="image" class="img-fluid" alt=""></img>
           </a>
           <div class="portfolio-caption">
             <h4>{{ obj.caption }}</h4>
@@ -31,11 +31,16 @@
 
 <script>
 export default {
+  computed: {
+    imageArray: function() {
+        return this.portfolioJSON.map(obj => obj.img)
+    }
+},
     data: () => ({
-        portfoliJSON: [
+        portfolioJSON: [
             {
-                img: '/something/random/img.jpg',
-                caption: 'Explore',
+                img: require('../assets/img/portfolio/02-full.jpg'),
+                caption: 'test',
                 title: 'Graphic Design'
             },
             {
@@ -51,7 +56,7 @@ export default {
             {
                 img: '/something/random/img.jpg',
                 caption: 'Explore',
-                title: 'Graphic Design'
+                title: 'Graphic Design.'
             },
             {
                 img: '/something/random/img.jpg',
@@ -76,5 +81,7 @@ export default {
 </script>
 
 <style lang="css">
-
+.img-fluid {
+  width: 100%;
+}
 </style>
