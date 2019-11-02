@@ -14,7 +14,7 @@ const functions = require('firebase-functions');
 Vue.config.productionTip = false
 
 // Your web app's Firebase configuration
-let yourApiKey = ""
+let yourApiKey = "";
 if (functions.config().hasOwnProperty('info')) {
   yourApiKey = functions.config().info.apikey
 } else {

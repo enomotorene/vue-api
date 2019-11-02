@@ -31,13 +31,13 @@
   <!-- <About></About> --> <!--- this is a component --->
 
   <!-- Team -->
- <Team></Team>
+ <!-- <Team></Team> -->
 
   <!-- Clients -->
-  <Client></Client>
+  <!-- <Client></Client> -->
 
   <!-- Contact -->
-  <Contact></Contact>
+  <!-- <Contact></Contact> -->
 
   <!-- Footer -->
   <!-- <Footer></Footer> -->

@@ -8,12 +8,8 @@
         </div>
       </div>
       <div class="row">
- <div class="col-md-12">
-       <p class="text-muted"></p>
 
-       
- </div>
- <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
+       <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
           <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
@@ -26,12 +22,9 @@
             <h4>{{ obj.caption }}</h4>
             <p class="text-muted">{{ obj.title }}</p>
           </div>
-          
         </div>
-        
-      </div>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="/Works" style="text-align:center;">View More</a>
 
+      </div>
     </div>
   </section>
 </template>  
@@ -59,6 +52,26 @@ export default {
                 img: require('../assets/img/portfolio/03-thumbnail.jpg'),
                 caption: 'Explore',
                 title: 'tes3'
+            },
+            {
+                img: require('../assets/img/portfolio/04-thumbnail.jpg'),
+                caption: 'Explore',
+                title: 'Graphic Design.'
+            },
+            {
+                img: require('../assets/img/portfolio/05-thumbnail.jpg'),
+                caption: 'Explore',
+                title: 'Graphic Design'
+            },
+            {
+                img: require('../assets/img/portfolio/06-thumbnail.jpg'),
+                caption: 'Explore',
+                title: 'Graphic Design'
+            },
+            {
+                img: require('../assets/img/portfolio/02-thumbnail.jpg'),
+                caption: 'Pizza',
+                title: 'I ate some pizza'
             }
         ]
 

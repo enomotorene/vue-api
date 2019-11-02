@@ -1,7 +1,7 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <router-link class="navbar-brand js-scroll-trigger" to="/">Open Innovation</router-link>
+      <router-link class="navbar-brand js-scroll-trigger" to="/">Portfolio</router-link>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -28,37 +28,44 @@ export default {
   data: () => ({
     navList: [
       {
-      name: 'Services',
-      path: '#services'
-      },
-      {
-      name: 'Portfolio',
-      path: '#portfolipo'
-      },
-      // {
-      // name: 'About',
-      // path: '#about'
-      // },
-      {
-      name: 'Team',
-      path: '#team'
-      },
-      {
-      name: 'Contact',
-      path: '#contact'
-      },
-      {
+      name: 'Home',
+      path: '/Home'
+      },{
       name: 'About',
       path: '/About'
       },
       {
-      name: 'Sign in',
-      path: '/Signin'
+      name: 'Works',
+      path: '/Works'
       },
+      // {
+      // name: 'Services',
+      // path: '#services'
+      // },
+      // {
+      // name: 'Portfolio',
+      // path: '#portfolio'
+      // },
+      // {
+      // name: 'About',
+      // path: '#about'
+      // },
+      // {
+      // name: 'Team',
+      // path: '#team'
+      // },
       {
-      name: 'Sign Up',
-      path: '/Signup'
-      }
+      name: 'Contact',
+      path: '/Contact'
+      },
+      // {
+      // name: 'Sign in',
+      // path: '/Signin'
+      // },
+      // {
+      // name: 'Sign Up',
+      // path: '/Signup'
+      // }
     ]
   })
 }

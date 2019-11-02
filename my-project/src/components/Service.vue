@@ -3,19 +3,17 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">About Me</h2>
-          <h3 class="section-subheading text-muted">初めまして</h3>
+          <h2 class="section-heading text-uppercase text-left">About Me</h2>
         </div>
       </div>
-       <div class="row text-center">
-        <div class="col-md-12">
+       <div class="row text-left">
+        <div class="col-md-8">
           <!-- <span class="fa-stack fa-4x">
             <i class="fas fa-circle fa-stack-2x text-primary"></i>
             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
           <!-- </span> -->
-          <p class="text-muted">I am a positive and driven person with a great sense of responsibility. I love to learn new things and adapt myself quickly. I graduated from IT, media and design program at Södertörn University in Stockholm in 2018.
-During my study I worked as a junior web developer at car insurance company for part time. I enjoy working independently but I think that it is the most fun to be part of a team.
-In the future, I would like to be a successful web developer.</p>
+          <p class="text-muted">Hi. I’m Rene Enomoto, a digital creative director based in Tokyo. I am a passionate creative driven by the synergy of design and technology. I seek to bring meaning into design.</p>
+<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="/About">Learn More</a>
         </div>
       </div>
       <!-- <div class="row text-center">
