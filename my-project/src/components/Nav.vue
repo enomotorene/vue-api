@@ -35,10 +35,10 @@ export default {
       name: 'Portfolio',
       path: '#portfolipo'
       },
-      {
-      name: 'About',
-      path: '#about'
-      },
+      // {
+      // name: 'About',
+      // path: '#about'
+      // },
       {
       name: 'Team',
       path: '#team'
