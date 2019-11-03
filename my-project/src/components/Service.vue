@@ -13,7 +13,7 @@
             <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i> -->
           <!-- </span> -->
           <p class="text-muted">Hi. I’m Rene Enomoto, a digital creative director based in Tokyo. I am a passionate creative driven by the synergy of design and technology. I seek to bring meaning into design.</p>
-<a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="/About">Learn More</a>
+<a class="btn btn-xl text-uppercase js-scroll-trigger btn-service" href="/About">Learn More</a>
         </div>
       </div>
       <!-- <div class="row text-center">
@@ -56,6 +56,16 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="css">
+.btn-service {
+  color: #494949 !important;
+text-transform: uppercase;
+text-decoration: none;
+background: #ffffff;
+padding: 20px;
+border: 4px solid #494949 !important;
+display: inline-block;
+transition: all 0.4s ease 0s;
+}
 
 </style>

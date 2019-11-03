@@ -1,8 +1,8 @@
 <template>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
     <div class="container">
-      <router-link class="navbar-brand js-scroll-trigger" to="/">Portfolio</router-link>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      <router-link class="navbar-brand js-scroll-trigger" to="/Home">Portfolio</router-link>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
       </button>

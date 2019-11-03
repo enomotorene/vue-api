@@ -5,19 +5,13 @@
         <div class="col-md-12">
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-twitter"></i>
-              </a>
+              <a href="#" class="fa fa-twitter" target="_blank"></a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-facebook-f"></i>
-              </a>
+              <a href="#" class="fa fa-facebook" target="_blank"></a>
             </li>
             <li class="list-inline-item">
-              <a href="#">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
+              <a href="https://www.linkedin.com/in/rene-enomoto-7954b810a/" class="fa fa-linkedin" target="_blank"></a>
             </li>
           </ul>
         </div>

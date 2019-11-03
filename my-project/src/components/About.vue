@@ -1,10 +1,10 @@
 <template>
-    <section class="page-section" id="about">
+    <section class="page-section page-bottom" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center"><br>
           <h2 class="section-heading text-uppercase">About Me</h2>
-          <img src="../assets/img/profile.png" alt="Profile"><br><br>
+          <img src="../assets/img/profile.png" alt="Profile" class="profile"><br><br>
           <h3 class="section-subheading text-muted">I am a positive and driven person with a great sense of responsibility. I love to learn new things and adapt myself quickly.<br><br> I graduated from IT, media and design program at Södertörn University in Stockholm in 2018.
 During my study I worked as a junior web developer at car insurance company for part time.<br><br>I enjoy working independently but I think that it is the most fun to be part of a team.
 In the future, I would like to be a successful web developer.</h3>
@@ -122,7 +122,7 @@ by using Laravel PHP framework.<br>
             </li>
           </ul>
         </div>
-        </div><br>
+        </div>
 
 
 
@@ -238,7 +238,6 @@ by using Laravel PHP framework.<br>
           </ul>
         </div>
       </div> -->
-      <Contact></Contact>
     </div>
   </section>
 </template>
@@ -269,7 +268,7 @@ li {
   display: inline;
 }
 
-img {
+img.profile {
   border-radius: 50%;
   width: 150px;
 }
@@ -284,5 +283,9 @@ div.right {
 div.left {
   text-align: left;
   padding-left: 50px;
+}
+
+.page-bottom {
+  padding: 0%;
 }
 </style>
