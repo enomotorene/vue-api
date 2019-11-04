@@ -2,14 +2,14 @@
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
       <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Portfolio</h2>
+        <div class="col-lg-12 text-center"><br>
+          <h2 class="section-heading text-uppercase">Wroks</h2>
           <h3 class="section-subheading text-muted">Selected work that has been created with the help of many.</h3>
         </div>
       </div>
       <div class="row">
        <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
-          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
+          <a class="portfolio-link" data-toggle="modal" v-bind:href="obj.url" target = "_blank">
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
                 <!-- <i class="fas fa-plus fa-3x"></i> -->
@@ -46,32 +46,38 @@ export default {
             {
                 img: require('../assets/img/portfolio/forskartorget.png'),
                 caption: 'Forskartorget',
-                title: 'WEBSITE'
+                title: 'WEBSITE',
+                url: "http://www.forskartorget.se/"
             },
             {
                 img: require('../assets/img/portfolio/pluscap.png'),
                 caption: 'Pluscap',
-                title: 'WEBSITE'
+                title: 'WEBSITE',
+                url: "https://www.pluscap.se/"
             },
             {
                 img: require('../assets/img/portfolio/izumo.png'),
                 caption: 'Internship at IzumoBASE, INC.',
-                title: 'WEBSITE'
+                title: 'WEBSITE',
+                url: "https://www.izumobase.com/"
             },
             {
                 img: require('../assets/img/portfolio/paydrive.png'),
                 caption: 'Paydrive',
-                title: 'WEBSITE'
+                title: 'WEBSITE',
+                url: "https://www.paydrive.se/"
             },
             {
                 img: require('../assets/img/portfolio/lineapp.png'),
                 caption: 'Södertörns högskola',
-                title: 'School project. App design, logo, poster etc.'
+                title: 'School project. App design, logo, poster etc.',
+                url: "/School"
             },
             {
                 img: require('../assets/img/portfolio/graduate.png'),
                 caption: 'Södertörns högskola',
-                title: 'Graduation project'
+                title: 'Graduation project',
+                url: "/Graduate"
             }
         ]
     })

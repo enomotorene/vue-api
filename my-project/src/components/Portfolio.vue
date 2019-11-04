@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row text-left">
         <div class="col-md-8">
-   <h2 class="section-heading text-uppercase top-portfolio-title">Works</h2>
-       <h2 class="text-muted top-page">Greencosjapan</h2>
+   <h2 class="section-heading text-uppercase top-portfolio-title title-portfolio">Works</h2>
+       <h2 class="text-muted top-page"><a href="https://greencosjapan.com/" class="portfolio-link">Greencosjapan</a></h2>
        <h2 class="text-muted top-page">Pluscap</h2>
        <h2 class="text-muted top-page">IzumoBASE, INC.</h2>
        <h2 class="text-muted top-page">Paydrive</h2><br>
@@ -76,7 +76,16 @@ section.top-page {
 }
 
 .top-portfolio-title {
-  color: #000;
+  color: #090057;
+}
+
+h2.top-page {
+  color: #ffffff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h2 a.portfolio-link {
+  text-decoration: none;
 }
 
 h2.top-page {
@@ -86,9 +95,7 @@ h2.top-page {
 
 h2.top-page:hover {
   background-color: rgb(0, 0, 0);
-  /* color: var(--slideTextColor);
-      cursor: pointer;
-      background-position: -50% 100%; */
+  background: rgba(255,0,0,0.3);
 }
 
 .btn-portfolio{

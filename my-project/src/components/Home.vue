@@ -43,7 +43,7 @@
   <!-- <Footer></Footer> -->
 
   <!-- Portfolio Modals -->
-  <Modals></Modals>
+  <!-- <Modals></Modals> -->
 </div>
 </template>
 
@@ -57,6 +57,7 @@ import Client from './Client'
 import Contact from './Contact'
 import Footer from './Footer'
 import Modals from './Modals'
+import School from './School'
 
 //import {db} from "@/main";
 
@@ -75,7 +76,8 @@ export default {
     Service,
     Contact,
     Footer,
-    Modals
+    Modals,
+    School
   }
 }
 </script>

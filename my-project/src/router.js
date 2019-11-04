@@ -12,7 +12,7 @@ const router = new VueRouter({
     mode: 'history', //seo frendly
     routes: [
         {
-            path: '/home',
+            path: '/',
             name: 'Home',
             component: load("Home")
         },
@@ -40,6 +40,21 @@ const router = new VueRouter({
             path: '/signup',
             name: 'Signup',
             component: load('Signup')
+        },
+        {
+            path: '/modals',
+            name: 'Modals',
+            component: load('Modals')
+        },
+        {
+            path: '/school',
+            name: 'School',
+            component: load('School')
+        },
+        {
+            path: '/graduate',
+            name: 'Graduate',
+            component: load('Graduate')
         }
     ]
 })

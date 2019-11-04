@@ -286,6 +286,6 @@ div.left {
 }
 
 .page-bottom {
-  padding: 0%;
+  padding-bottom: 0%;
 }
 </style>
