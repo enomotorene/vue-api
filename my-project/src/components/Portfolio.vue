@@ -99,14 +99,17 @@ h2.top-page:hover {
 }
 
 .btn-portfolio{
-color: #494949 !important;
+color:#000 ;
 text-transform: uppercase;
 text-decoration: none;
 background: #ffffff;
 padding: 20px;
-border: 4px solid #494949 !important;
+border: 4px solid #000 ;
 display: inline-block;
-transition: all 0.4s ease 0s;
+opacity: 0.6;
+  transition: 0.3s;
 }
+
+.btn-portfolio:hover {opacity: 1}
 
 </style>
