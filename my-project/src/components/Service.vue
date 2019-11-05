@@ -57,15 +57,24 @@ export default {
 </script>
 
 <style lang="css">
-.btn-service {
-  color: #494949 !important;
+ 
+
+.btn-service{
+color:#ffffff ;
 text-transform: uppercase;
 text-decoration: none;
-background: #ffffff;
+background: #000;
 padding: 20px;
-border: 4px solid #494949 !important;
+border: solid #ffffff ;
 display: inline-block;
-transition: all 0.4s ease 0s;
+opacity: 1;
+  transition: 1;
+  font-family: "Times New Roman", Times, serif;
+  border-radius: 0em;
+
 }
+
+.btn-portfolio:hover {
+  opacity: 0.9}
 
 </style>

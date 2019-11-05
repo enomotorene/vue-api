@@ -1,5 +1,5 @@
 <template>
-    <section class="page-section" id="contact">
+    <!-- <section class="page-section contact-bg" id="contact">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -41,5 +41,35 @@
         </div>
       </div>
     </div>
+  </section> -->
+
+   <section class="bg-light page-section contact-bg" id="contact">
+    <div class="container">
+      <div class="row text-left">
+        <div class="col-md-8 top-contact-bg"><br>
+   <h2 class="section-heading text-uppercase top-portfolio-title title-portfolio">Contact</h2>
+   <p>Say hi</p>
+       <h2 class="text-muted top-page">enomoto.rene@gmail.com</h2>
+       <p>If you are interested in a new project, collaboration, don't hesitate to send me an email.</p>
+
+ </div>
+      </div>
+      
+    </div>
   </section>
 </template>
+
+
+<style lang="css">
+
+.top-contact-bg {
+  color: white;
+}
+
+.contact-bg {
+  /* background-image:url(../img/) */
+  /* opacity: 0.6; */
+  background: rgba(143, 122, 219, 0.3);
+}
+
+</style>

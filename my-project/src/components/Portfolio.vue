@@ -2,12 +2,12 @@
   <section class="bg-light page-section top-page" id="portfolio">
     <div class="container">
       <div class="row text-left">
-        <div class="col-md-8">
+        <div class="col-md-8 top-portfolio-bg">
    <h2 class="section-heading text-uppercase top-portfolio-title title-portfolio">Works</h2>
-       <h2 class="text-muted top-page"><a href="https://greencosjapan.com/" class="portfolio-link">Greencosjapan</a></h2>
-       <h2 class="text-muted top-page">Pluscap</h2>
-       <h2 class="text-muted top-page">IzumoBASE, INC.</h2>
-       <h2 class="text-muted top-page">Paydrive</h2><br>
+       <h2 class="text-muted top-page" ><a href="https://greencosjapan.com/" class="portfolio-link" style="">Greencosjapan</a></h2>
+       <h2 class="text-muted top-page"><a href="https://www.pluscap.se/" class="portfolio-link" style="">Pluscap</a></h2>
+       <h2 class="text-muted top-page"><a href="https://www.izumobase.com/" class="portfolio-link" style="">IzumoBASE, INC.</a></h2>
+       <h2 class="text-muted top-page"><a href="https://www.paydrive.se/" class="portfolio-link" style="">Paydrive</a></h2><br>
        <a class="btn btn-xl text-uppercase js-scroll-trigger btn-portfolio" href="/Works" style="text-align:left;">View More</a>
 
  </div>
@@ -76,17 +76,22 @@ section.top-page {
 }
 
 .top-portfolio-title {
-  color: #090057;
+  color: #ffffff;
 }
 
 h2.top-page {
   color: #ffffff;
   font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
 }
 
 h2 a.portfolio-link {
-  text-decoration: none;
+  color:#ffffff;
+  text-decoration:none;
+  
 }
+
+a {cursor: pointer;}
 
 h2.top-page {
   color: #ffffff;
@@ -95,8 +100,9 @@ h2.top-page {
 
 h2.top-page:hover {
   background-color: rgb(0, 0, 0);
-  background: rgba(255,0,0,0.3);
+  background: rgba(143, 122, 219, 0.3);
 }
+
 
 .btn-portfolio{
 color:#000 ;
@@ -104,12 +110,20 @@ text-transform: uppercase;
 text-decoration: none;
 background: #ffffff;
 padding: 20px;
-border: 4px solid #000 ;
+/* border: solid #000 ; */
 display: inline-block;
-opacity: 0.6;
+opacity: 1;
   transition: 0.3s;
+  font-family: "Times New Roman", Times, serif;
+
 }
 
-.btn-portfolio:hover {opacity: 1}
+.btn-portfolio:hover {opacity: 0.6}
+
+.top-portfolio-bg {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  
+}
 
 </style>
