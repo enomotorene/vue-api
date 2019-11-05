@@ -1,27 +1,27 @@
 <template>
-    <section class="page-section page-bottom" id="about">
+    <section class="page-section page-bottom about-text" id="about">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center"><br>
-          <h2 class="section-heading text-uppercase">About Me</h2>
+          <h2 class=" text-uppercase about-title">About Me</h2>
           <img src="../assets/img/profile.png" alt="Profile" class="profile"><br><br>
-          <h3 class="section-subheading text-muted">I am a positive and driven person with a great sense of responsibility. I love to learn new things and adapt myself quickly.<br><br> I graduated from IT, media and design program at Södertörn University in Stockholm in 2018.
+          <h3 class="section-subheading text-muted about-text">I am a positive and driven person with a great sense of responsibility. I love to learn new things and adapt myself quickly.<br><br> I graduated from IT, media and design program at Södertörn University in Stockholm in 2018.
 During my study I worked as a junior web developer at car insurance company for part time.<br><br>I enjoy working independently but I think that it is the most fun to be part of a team.
 In the future, I would like to be a successful web developer.</h3>
         </div>
       </div>
-      <div class="row">
-      <div class="col-md-6 right">
-          <h4 class="service-heading">EXPERIENCE</h4>
+      <div class="row about-text">
+      <div class="col-md-6 right about-text">
+          <h4 class="service-heading about-text">EXPERIENCE</h4>
           <ul>
             <li>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
+              <div class="timeline-panel about-text">
+                <div class="timeline-heading about-text">
                   <h4>2019.04 - </h4>
                   <h5>Tokyo</h5>
                   <h4 class="subheading">IT consult, engineer<br> of Smart-life planning Department<br> at NTT Docomo</h4>
                 </div>
-                <div class="timeline-body">
+                <div class="timeline-body about-text">
                   <h4 class="text-muted"></h4>
                   <p class="text-muted">Integrating AI recommendation engins for sevral EC sites.</p>
                 </div>
@@ -123,143 +123,23 @@ by using Laravel PHP framework.<br>
           </ul>
         </div>
         </div>
-
-
-
-      <!-- <div class="row">
-        <div class="col-lg-12">
-          <ul class="timeline">
-            <li>
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2019.04 - </h4>
-                  <h5>Stockholm</h5>
-                  <h4 class="subheading">Web designer at Forskartorget</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Worked as a web designer at Forskartorget  to create web page. My main task was to think design from scratch and create hi-fi prototype.  After that I redesigned for the existing web page. 
-(WordPress, HTML and CSS)</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2018.02 - 2018.05</h4>
-                  <h5>Tokyo</h5>
-                  <h4 class="subheading">Internship at IzumoBASE, INC.</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Web development for IzumoBASE, INC.
-I was a part of team to develop company’s web page
-by using Laravel PHP framework.<br>
-( HTML, CSS, Javascript, Node.js, php, Laravel and Gitlab)</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/1.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2018.08 - 2018.11</h4>
-                  <h5>Stockholm</h5>
-                  <h4 class="subheading">Web designer at Forskartorget</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Worked as a web designer at Forskartorget  to create web page. My main task was to think design from scratch and create hi-fi prototype.  After that I redesigned for the existing web page. 
-(WordPress, HTML and CSS)</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2018.02 - 2018.05</h4>
-                  <h5>Tokyo</h5>
-                  <h4 class="subheading">Internship at IzumoBASE, INC.</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Web development for IzumoBASE, INC.
-I was a part of team to develop company’s web page
-by using Laravel PHP framework.<br>
-( HTML, CSS, Javascript, Node.js, php, Laravel and Gitlab)</p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>2016.07 - 2017.07</h4>
-                  <h5>Stockholm</h5>
-                  <h4 class="subheading">Junior web developer at Paydrive</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Web development including reconstruction of company’s website. (HTML, CSS, Javascript and photoshop)</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <img class="rounded-circle img-fluid" src="img/about/4.jpg" alt="">
-              </div>
-              <div class="timeline-panel">
-                <div class="timeline-heading">
-                  <h4>July 2014</h4>
-                  <h4 class="subheading">Phase Two Expansion</h4>
-                </div>
-                <div class="timeline-body">
-                  <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                </div>
-              </div>
-            </li>
-            <li class="timeline-inverted">
-              <div class="timeline-image">
-                <h4>Be Part
-                  <br>Of Our
-                  <br>Story!</h4>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div> -->
     </div>
   </section>
 </template>
 
 <script>
-//import Contact from './Contact'
-
-//import {db} from "@/main";
 
 export default {
-  // name: 'app',
-  // // beforeCreate: function() {
-  // //   this.$store.dispatch('setItems');
-  // // },
-  // components: {
-   
-  //   Contact
-  // }
 }
 </script>
 
 <style lang="css">
+section.about-text{
+  
+  font-family: "Baskerville";
+}
+
+
 ul.left {
   margin-left: -38px;
 }

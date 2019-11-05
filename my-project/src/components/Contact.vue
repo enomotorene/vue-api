@@ -49,7 +49,7 @@
         <div class="col-md-8 top-contact-bg"><br>
    <h2 class="section-heading text-uppercase top-portfolio-title title-portfolio">Contact</h2>
    <p>Say hi</p>
-       <h2 class="text-muted top-page">enomoto.rene@gmail.com</h2>
+       <h2 class="text-muted">enomoto.rene@gmail.com</h2>
        <p>If you are interested in a new project, collaboration, don't hesitate to send me an email.</p>
 
  </div>
@@ -69,6 +69,11 @@
 .contact-bg {
   /* background-image:url(../img/) */
   /* opacity: 0.6; */
+  background: rgba(143, 122, 219, 0.3);
+}
+
+h2.top-page:hover {
+  background-color: rgb(0, 0, 0);
   background: rgba(143, 122, 219, 0.3);
 }
 

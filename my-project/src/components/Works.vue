@@ -17,9 +17,9 @@
             </div>
             <img :src="obj.img" class="img-fluid" alt="">
           </a>
-          <div class="portfolio-caption">
+          <div class="portfolio-caption works-text">
             <h4>{{ obj.caption }}</h4>
-            <p class="text-muted">{{ obj.title }}</p>
+            <p class="text-muted works-text">{{ obj.title }}</p>
           </div>
         </div>
 
@@ -88,5 +88,9 @@ export default {
 <style lang="css">
 .img-fluid {
   width: 100%;
+}
+
+.works-text {
+  font-family: "Berkerville";
 }
 </style>

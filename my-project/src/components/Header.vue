@@ -16,6 +16,7 @@
 }
 
 .top-bg {
+  font-family: Helvetica;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;

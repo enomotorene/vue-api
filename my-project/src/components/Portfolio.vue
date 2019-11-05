@@ -2,8 +2,8 @@
   <section class="bg-light page-section top-page" id="portfolio">
     <div class="container">
       <div class="row text-left">
-        <div class="col-md-8 top-portfolio-bg">
-   <h2 class="section-heading text-uppercase top-portfolio-title title-portfolio">Works</h2>
+        <div class="col-md-8 top-portfolio-bg portfolio-text">
+   <h2 class="section-heading text-uppercase top-portfolio-title">Works</h2>
        <h2 class="text-muted top-page" ><a href="https://greencosjapan.com/" class="portfolio-link" style="">Greencosjapan</a></h2>
        <h2 class="text-muted top-page"><a href="https://www.pluscap.se/" class="portfolio-link" style="">Pluscap</a></h2>
        <h2 class="text-muted top-page"><a href="https://www.izumobase.com/" class="portfolio-link" style="">IzumoBASE, INC.</a></h2>
@@ -77,11 +77,12 @@ section.top-page {
 
 .top-portfolio-title {
   color: #ffffff;
+  font-family: "Baskerville";
 }
 
 h2.top-page {
   color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Baskerville";
   cursor: pointer;
 }
 
@@ -95,7 +96,7 @@ a {cursor: pointer;}
 
 h2.top-page {
   color: #ffffff;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Baskerville";
 }
 
 h2.top-page:hover {
