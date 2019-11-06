@@ -3,26 +3,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 text-left"><br>
-          <h2 class="section-heading text-uppercase">School project</h2>
+          <h2 class="section-heading text-uppercase school-text">School project</h2>
           <h3 class="section-subheading text-muted">See work that has been created with the help of many.</h3>
         </div>
       </div>
       <div class="row">
        <div class="col-md-4 col-sm-4 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
-          <!-- <a class="portfolio-link" data-toggle="modal" v-bind:href="obj.url" target = "_blank"> -->
-            <!-- <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div> -->
             <img :src="obj.img" class="img-fluid" alt="">
-          <!-- </a> -->
-          <!-- <div class="portfolio-caption">
-            <h4>{{ obj.caption }}</h4>
-            <p class="text-muted">{{ obj.title }}</p>
-          </div> -->
         </div>
-
       </div>
     </div>
   </section>
@@ -90,5 +78,9 @@ export default {
 <style lang="css">
 .img-fluid {
   width: 100%;
+}
+
+.school-text {
+  font-family: "Baskerville";
 }
 </style>

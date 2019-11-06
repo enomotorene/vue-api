@@ -8,7 +8,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
-          <li class="nav-item" v-for="(linkObj, ind) in navList" :key="ind">
+          <li class="nav-item nav-text" v-for="(linkObj, ind) in navList" :key="ind">
             <a class="nav-link js-scroll-trigger" :href="linkObj.path" v-if="linkObj.path.indexOf('#') === 0">{{ linkObj.name }}</a>
             <router-link 
               class="nav-link js-scroll-trigger"
@@ -38,34 +38,10 @@ export default {
       name: 'Works',
       path: '/Works'
       },
-      // {
-      // name: 'Services',
-      // path: '#services'
-      // },
-      // {
-      // name: 'Portfolio',
-      // path: '#portfolio'
-      // },
-      // {
-      // name: 'About',
-      // path: '#about'
-      // },
-      // {
-      // name: 'Team',
-      // path: '#team'
-      // },
       {
       name: 'Contact',
       path: '/Contact'
       },
-      // {
-      // name: 'Sign in',
-      // path: '/Signin'
-      // },
-      // {
-      // name: 'Sign Up',
-      // path: '/Signup'
-      // }
     ]
   })
 }
@@ -77,12 +53,11 @@ export default {
   color: cadetblue;
 }
 
-/* #mainNav.navbar-brand {
-  color: cadetblue;
-} */
-
 #mainNav .navbar-toggler {
 background-color: #fff;
 color: #000272;
+}
+.nav-text {
+  font-family: "Baskerville";
 }
 </style>

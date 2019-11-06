@@ -12,10 +12,8 @@
      <div class="title">What do i need to do today?</div>
      <input v-model="myTodo" /><button @click="addTodo">Add</button>
      <div v-if="errors !== ''" id="errors">{{errors}}</div>
-
      <div v-if="this.$store.getters.getItems && this.$store.getters.getItems.length > 0">
        <div class="title">Todos that need to be done today</div>
-
        <div v-for="item in this.$store.getters.getItems" :key="item.id">
          {{item.title}}<br/><br/> <small style="text-decoration:underline;" @click="deleteItem(item.id)">Delete</small>
          <br />
@@ -24,10 +22,8 @@
     </div>  -->
    <!-- Portfolio Grid -->
   <Portfolio></Portfolio> <!--- this is a component --->
-
   <!-- About -->
   <!-- <About></About> --> <!--- this is a component --->
-
   <!-- Team -->
  <!-- <Team></Team> -->
 
@@ -56,9 +52,7 @@ import Contact from './Contact'
 import Footer from './Footer'
 import Modals from './Modals'
 import School from './School'
-
 //import {db} from "@/main";
-
 export default {
   name: 'app',
   // beforeCreate: function() {

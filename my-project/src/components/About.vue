@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center"><br>
-          <h2 class=" text-uppercase about-title">About Me</h2>
+          <h2 class="section-heading text-uppercase about-text">About Me</h2>
           <img src="../assets/img/profile.png" alt="Profile" class="profile"><br><br>
           <h3 class="section-subheading text-muted about-text">I am a positive and driven person with a great sense of responsibility. I love to learn new things and adapt myself quickly.<br><br> I graduated from IT, media and design program at Södertörn University in Stockholm in 2018.
 During my study I worked as a junior web developer at car insurance company for part time.<br><br>I enjoy working independently but I think that it is the most fun to be part of a team.
@@ -17,37 +17,50 @@ In the future, I would like to be a successful web developer.</h3>
             <li>
               <div class="timeline-panel about-text">
                 <div class="timeline-heading about-text">
-                  <h4>2019.04 - </h4>
-                  <h5>Tokyo</h5>
-                  <h4 class="subheading">IT consult, engineer<br> of Smart-life planning Department<br> at NTT Docomo</h4>
+                  <h4 class="about-text">2019.04 - </h4>
+                  <h5 class="about-text">Tokyo</h5>
+                  <h4 class="subheading about-text">IT consult, engineer<br> of Smart-life planning Department<br> at NTT Docomo</h4>
                 </div>
                 <div class="timeline-body about-text">
                   <h4 class="text-muted"></h4>
-                  <p class="text-muted">Integrating AI recommendation engins for sevral EC sites.</p>
+                  <p class="text-muted about-text">Integrating AI recommendation engins for sevral EC sites.</p>
                 </div>
               </div>
-            </li>
+            </li><br>
             <li>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2019.02 - </h4>
-                  <h5>Tokyo</h5>
-                  <h4 class="subheading">Front-end engineer <br>at Asia Quest</h4>
+                  <h4 class="about-text">2019.02 - </h4>
+                  <h5 class="about-text">Tokyo</h5>
+                  <h4 class="subheading about-text">Front-end engineer <br>at Asia Quest</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Vue.js and Adobe XD</p>
+                  <p class="text-muted about-text">Vue.js and Adobe XD</p>
                 </div>
               </div>
-            </li>
+            </li><br>
             <li>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2018.08 - 2018.11</h4>
-                  <h5>Stockholm</h5>
-                  <h4 class="subheading">Web designer at Forskartorget</h4>
+                  <h4 class="about-text">2018.08 - 2018.11</h4>
+                  <h5 class="about-text">Stockholm</h5>
+                  <h4 class="subheading about-text">Web designer at Forskartorget</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Worked as a web designer at Forskartorget  to create web page. My main task was to think design from scratch and create hi-fi prototype.  After that I redesigned for the existing web page. 
+                  <p class="text-muted about-text">Worked as a web designer at Forskartorget  to create web page. My main task was to think design from scratch and create hi-fi prototype.  After that I redesigned for the existing web page. 
+(WordPress, HTML and CSS)</p>
+                </div>
+              </div>
+            </li><br>
+            <li>
+              <div class="timeline-panel">
+                <div class="timeline-heading">
+                  <h4 class="about-text">2018.08 - 2018.11</h4>
+                  <h5 class="about-text">Stockholm</h5>
+                  <h4 class="subheading about-text">Web designer at Pluscap</h4>
+                </div>
+                <div class="timeline-body">
+                  <p class="text-muted about-text">Worked as a web designer at Forskartorget  to create web page. My main task was to think design from scratch and create hi-fi prototype.  After that I redesigned for the existing web page. 
 (WordPress, HTML and CSS)</p>
                 </div>
               </div>
@@ -58,27 +71,27 @@ In the future, I would like to be a successful web developer.</h3>
               </div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2018.02 - 2018.05</h4>
-                  <h5>Tokyo</h5>
-                  <h4 class="subheading">Internship at IzumoBASE, INC.</h4>
+                  <h4 class="about-text">2018.02 - 2018.05</h4>
+                  <h5 class="about-text">Tokyo</h5>
+                  <h4 class="subheading about-text">Internship at IzumoBASE, INC.</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Web development for IzumoBASE, INC.
+                  <p class="text-muted about-text">Web development for IzumoBASE, INC.
 I was a part of team to develop company’s web page
 by using Laravel PHP framework.<br>
 ( HTML, CSS, Javascript, Node.js, php, Laravel and Gitlab)</p>
                 </div>
               </div>
-            </li>
+            </li><br>
             <li>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2016.07 - 2017.07</h4>
-                  <h5>Stockholm</h5>
-                  <h4 class="subheading">Junior web developer<br> at Paydrive</h4>
+                  <h4 class="about-text">2016.07 - 2017.07</h4>
+                  <h5 class="about-text">Stockholm</h5>
+                  <h4 class="subheading about-text">Junior web developer<br> at Paydrive</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Web development including reconstruction of company’s website. (HTML, CSS, Javascript and photoshop)</p>
+                  <p class="text-muted about-text">Web development including reconstruction of company’s website. (HTML, CSS, Javascript and photoshop)</p>
                 </div>
               </div>
             </li>
@@ -87,17 +100,17 @@ by using Laravel PHP framework.<br>
         <ul class="timeline">
         </ul>
         <div class="col-md-6 left">
-          <h4 class="service-heading">EDUCATION</h4>
+          <h4 class="service-heading about-text">EDUCATION</h4>
           <ul class="left">      
             <li>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4>2015.08 - 2018.06</h4>
-                  <h5>Stockholm</h5>
-                  <h4 class="subheading">Södertörns högskola</h4>
+                  <h4 class="about-text">2015.08 - 2018.06</h4>
+                  <h5 class="about-text">Stockholm</h5>
+                  <h4 class="subheading about-text">Södertörns högskola</h4>
                 </div>
                 <div class="timeline-body">
-                  <p class="text-muted">Degree of Bachelor of Science in Media Technology</p>
+                  <p class="text-muted about-text">Degree of Bachelor of Science in Media Technology</p>
                   <p><b>Grafisk design</b> - indesign, photoshop, illustrator, premiär och after effects</p>
                   <p><b>Programmering</b> - Basic av HTML, CSS, javascript (jquery, bootstrap), php, mysql och java.</p>
                   <p><b>CMS</b> - Wordpress</p>
@@ -110,9 +123,9 @@ by using Laravel PHP framework.<br>
               </div>
             </li><br>
             <li class="timeline-inverted">
-              <h4 class="service-heading">Languages</h4>
+              <h4 class="service-heading about-text">Languages</h4>
               <div class="timeline-panel">
-                <div class="timeline-body">
+                <div class="timeline-body ">
                   <p class="text-muted">Japanese: Native language</p>
                   <p class="text-muted">Swedish: Good knowledge</p>
                   <p class="text-muted">English: Good knowledge</p>
@@ -139,6 +152,9 @@ section.about-text{
   font-family: "Baskerville";
 }
 
+.about-text {
+  font-family: "Baskerville";
+}
 
 ul.left {
   margin-left: -38px;

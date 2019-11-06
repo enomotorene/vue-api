@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center"><br>
-          <h2 class="section-heading text-uppercase">Wroks</h2>
+          <h2 class="section-heading text-uppercase works-text">Wroks</h2>
           <h3 class="section-subheading text-muted">Selected work that has been created with the help of many.</h3>
         </div>
       </div>
@@ -18,7 +18,7 @@
             <img :src="obj.img" class="img-fluid" alt="">
           </a>
           <div class="portfolio-caption works-text">
-            <h4>{{ obj.caption }}</h4>
+            <h4 class="works-text">{{ obj.caption }}</h4>
             <p class="text-muted works-text">{{ obj.title }}</p>
           </div>
         </div>

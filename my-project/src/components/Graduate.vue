@@ -3,27 +3,14 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 text-left"><br>
-          <h2 class="section-heading text-uppercase">GRADUATION PROJECT</h2>
+          <h2 class="section-heading text-uppercase graduate-text">GRADUATION PROJECT</h2>
           <h3 class="section-subheading text-muted">Worked at for a japanese company to create a website using Laravel PHP framework remotely from Stockholm.<br><br> I mainly worked for frontend side (”view part” of the MVC model) and created mock up using Indesign.<br><br><a href="https://youtu.be/1cxKbE9a_l0" title="Download movie" target = "_blank">Click here to see my presentation</a></h3>
         </div>
       </div>
       <div class="row">
-          <!-- <video width="450" controls :src="video"></video> -->
        <div class="col-md-4 col-sm-4 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
-          <!-- <a class="portfolio-link" data-toggle="modal" v-bind:href="obj.url" target = "_blank"> -->
-            <!-- <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <i class="fas fa-plus fa-3x"></i>
-              </div>
-            </div> -->
-            <img :src="obj.img" class="img-fluid" alt="" >
-          <!-- </a> -->
-          <!-- <div class="portfolio-caption">
-            <h4>{{ obj.caption }}</h4>
-            <p class="text-muted">{{ obj.title }}</p>
-          </div> -->
+          <img :src="obj.img" class="img-fluid" alt="" >
         </div>
-
       </div>
     </div>
   </section>
@@ -101,5 +88,9 @@ export default {
 <style lang="css">
 .img-fluid {
   width: 100%;
+}
+
+.graduate-text {
+  font-family: "Baskerville";
 }
 </style>

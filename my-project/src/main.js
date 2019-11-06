@@ -8,7 +8,6 @@ import firebase from 'firebase'
 //import store from './store';
 // import firebase from 'firebase';
 
-
 const functions = require('firebase-functions');
 
 Vue.config.productionTip = false
