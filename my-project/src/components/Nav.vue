@@ -50,14 +50,12 @@ export default {
 <style scoped>
 #mainNav.navbar { /*increasing specificity*/
   background: rgba(0, 0, 0, 0.5);
-  color: cadetblue;
+  color: #007bff;
 }
 
 #mainNav .navbar-toggler {
 background-color: #fff;
 color: #000272;
 }
-.nav-text {
-  font-family: "Baskerville";
-}
+
 </style>

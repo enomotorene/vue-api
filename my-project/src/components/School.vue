@@ -27,46 +27,28 @@ export default {
         portfolioJSON: [
             
             {
-                img: require('../assets/img/school/s1.png'),
-                caption: 'Forskartorget',
-                title: 'WEBSITE',
-                
+                img: require('../assets/img/school/s1.png'), 
             },
             {
                 img: require('../assets/img/school/s2.png'),
-                caption: 'Pluscap',
-                title: 'WEBSITE',
-               
             },
             {
                 img: require('../assets/img/school/s3.png'),
-                caption: 'Internship at IzumoBASE, INC.',
-                title: 'WEBSITE',
-                
             },
             {
-                img: require('../assets/img/school/s4.png'),
-                caption: 'Paydrive',
-                title: 'WEBSITE',
-                
+                img: require('../assets/img/school/s4.png'), 
             },
             {
-                img: require('../assets/img/school/ges1.png'),
-                caption: 'Södertörns högskola',
-                title: 'School project. App design, logo, poster etc.',
-                
+                img: require('../assets/img/school/ges1.png'),          
             },
             {
                 img: require('../assets/img/school/ges2.png'),
-                caption: 'Södertörns högskola',
-                title: 'Graduation project',
-                
             },
             {
                 img: require('../assets/img/school/dik1.png'),
-                caption: 'Paydrive',
-                title: 'WEBSITE',
-                
+            },
+            {
+                img: require('../assets/img/school/dik2.png'),
             }
             
         ]
