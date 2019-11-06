@@ -49,6 +49,12 @@ export default {
             },
             {
                 img: require('../assets/img/school/dik2.png'),
+            },
+            {
+                img: require('../assets/img/school/ex1.png'),
+            },
+            {
+                img: require('../assets/img/school/ex2.png'),
             }
             
         ]
