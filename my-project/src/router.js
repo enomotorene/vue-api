@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+//import Skills from './components/Skills.vue'
 
 Vue.use(VueRouter)
 
@@ -55,7 +56,12 @@ const router = new VueRouter({
             path: '/graduate',
             name: 'Graduate',
             component: load('Graduate')
-        }
+        },
+        // {
+        //     path: '/skills',
+        //     name: 'Skills',
+        //     component: load('Skills')
+        // }
     ]
 })
 

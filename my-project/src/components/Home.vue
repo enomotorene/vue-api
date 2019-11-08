@@ -52,6 +52,7 @@ import Contact from './Contact'
 import Footer from './Footer'
 import Modals from './Modals'
 import School from './School'
+//import Skills from './Skills'
 //import {db} from "@/main";
 export default {
   name: 'app',
@@ -69,7 +70,8 @@ export default {
     Contact,
     Footer,
     Modals,
-    School
+    School,
+    //Skills
   }
 }
 </script>

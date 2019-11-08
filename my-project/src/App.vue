@@ -11,10 +11,12 @@
 <script>
 import Nav from './components/Nav'
 import Footer from './components/Footer'
+// import Skills from './components/Skills'
 export default {
   components: {
     Nav,
-    Footer
+    Footer,
+    //Skills
   } 
 }
 </script>
