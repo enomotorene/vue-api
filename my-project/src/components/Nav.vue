@@ -1,10 +1,10 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav-fixed-bg" id="mainNav">
     <div class="container">
       <router-link class="navbar-brand js-scroll-trigger" to="/">RE</router-link>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
         Menu
-        <i class="fas fa-bars"></i>
+        <!-- <i class="fas fa-bars"></i> -->
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
@@ -58,4 +58,7 @@ background-color: #fff;
 color: #000272;
 }
 
+/* @media (min-width:768px){
+  header.masthead .intro-text{padding-top:150px;padding-bottom:0px}
+} */
 </style>
