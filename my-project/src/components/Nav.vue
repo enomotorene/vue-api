@@ -3,8 +3,10 @@
     <div class="container">
       <router-link class="navbar-brand js-scroll-trigger" to="/">RE</router-link>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
-        Menu
-        <!-- <i class="fas fa-bars"></i> -->
+        <!-- Menu -->
+        <!-- <i class="fa fa-bars" aria-hidden="true"></i> -->
+        <i class="fa fa-bars" aria-hidden="true"></i>
+        
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav text-uppercase ml-auto">
@@ -48,8 +50,9 @@ export default {
 </script>
 
 <style scoped>
+
 #mainNav.navbar { /*increasing specificity*/
-  background: rgba(0, 0, 0, 0.5);
+  /* background: rgba(0, 0, 0, 0.5); */
   color: #007bff;
 }
 
