@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center"><br>
-          <h2 class="section-heading text-uppercase works-text">Wroks</h2>
+          <h2 class="section-heading text-uppercase works-text">Works</h2>
           <h3 class="section-subheading text-muted">Selected work that has been created with the help of many.</h3>
         </div>
       </div>
