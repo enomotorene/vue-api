@@ -4,10 +4,11 @@
       <div class="row text-left">
         <div class="col-md-8 top-portfolio-bg portfolio-text">
          <h2 class="section-heading text-uppercase top-portfolio-title">Works</h2>
-         <h4 class="text-muted common-link" ><a href="https://greencosjapan.com/" class="default-link" style="">Greencosjapan</a></h4>
-         <h4 class="text-muted common-link"><a href="https://www.pluscap.se/" class="default-link" style="">Pluscap</a></h4>
-         <h4 class="text-muted common-link"><a href="https://www.izumobase.com/" class="default-link" style="">IzumoBASE, INC.</a></h4>
-         <h4 class="text-muted common-link"><a href="https://www.paydrive.se/" class="default-link" style="">Paydrive</a></h4><br>
+         <h4 class="text-muted common-link" ><a href="https://sukimatch-f887f.firebaseapp.com/" class="default-link" target = "_blank">Sukimatch</a></h4>
+         <h4 class="text-muted common-link" ><a href="https://greencosjapan.com/" class="default-link" target = "_blank">Greencosjapan</a></h4>
+         <h4 class="text-muted common-link"><a href="https://www.pluscap.se/" class="default-link" target = "_blank">Pluscap</a></h4>
+         <h4 class="text-muted common-link"><a href="https://www.izumobase.com/" class="default-link" target = "_blank">IzumoBASE, INC.</a></h4>
+         <h4 class="text-muted common-link"><a href="https://www.paydrive.se/" class="default-link" target = "_blank">Paydrive</a></h4><br>
          <a class="btn btn-xl text-uppercase js-scroll-trigger btn-portfolio" href="/Works" style="text-align:left;">View More</a>
         </div>  
       </div>

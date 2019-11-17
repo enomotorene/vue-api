@@ -15,7 +15,7 @@
                 <!-- <i class="fas fa-plus fa-3x"></i> -->
               </div>
             </div>
-            <img :src="obj.img" class="img-fluid" alt="">
+            <img :src="obj.img" class="img-fluid">
           </a>
           <div class="portfolio-caption works-text">
             <h4 class="works-text">{{ obj.caption }}</h4>
@@ -37,6 +37,12 @@ export default {
 },
     data: () => ({
         portfolioJSON: [
+           {
+                img: require('../assets/img/sukimatch/sukimatch.png'),
+                caption: 'Sukimatch',
+                title: 'WEBSITE, BANNER DESIGN',
+                url: "https://sukimatch-f887f.firebaseapp.com/"
+            },
             {
                 img: require('../assets/img/portfolio/greencosjapan.png'),
                 caption: 'Greencosjapan',
@@ -86,9 +92,9 @@ export default {
 </script>
 
 <style lang="css">
-.img-fluid {
+/* .img-fluid {
   width: 100%;
-}
+} */
 
 .works-text {
   font-family: "Berkerville";
