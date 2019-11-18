@@ -1,4 +1,5 @@
 <template>
+  
   <section class="bg-light page-section" id="portfolio">
     <div class="container">
       <div class="row">
@@ -8,15 +9,15 @@
         </div>
       </div>
       <div class="row">
-       <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key">
-          <a class="portfolio-link" data-toggle="modal" v-bind:href="obj.url" target = "_blank">
+        <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key" :href="obj.url">
+          
             <div class="portfolio-hover">
               <div class="portfolio-hover-content">
-                <!-- <i class="fas fa-plus fa-3x"></i> -->
+
               </div>
             </div>
-            <img :src="obj.img" class="img-fluid">
-          </a>
+            <a :href="obj.url" target=”_blank” ><img :src="obj.img" class="img-fluid"></a>
+          
           <div class="portfolio-caption works-text">
             <h4 class="works-text">{{ obj.caption }}</h4>
             <p class="text-muted works-text">{{ obj.title }}</p>
@@ -26,21 +27,19 @@
       </div>
     </div>
   </section>
+
 </template>  
 
 <script>
+
+
 export default {
-  computed: {
-    imageArray: function() {
-        return this.portfolioJSON.map(obj => obj.img)
-    }
-},
-    data: () => ({
-        portfolioJSON: [
-           {
+   data: () => ({
+    portfolioJSON: [
+            {
                 img: require('../assets/img/sukimatch/sukimatch.png'),
-                caption: 'Sukimatch',
-                title: 'WEBSITE, BANNER DESIGN',
+                caption: 'SUKIMATCH',
+                title: 'WEBESITE, BANNER DESGIN, RFP',
                 url: "https://sukimatch-f887f.firebaseapp.com/"
             },
             {
@@ -86,8 +85,8 @@ export default {
                 url: "/Graduate"
             }
         ]
-    })
-    
+  
+   })
 }
 </script>
 

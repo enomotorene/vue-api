@@ -6,6 +6,7 @@
           <h2 class="section-heading text-uppercase graduate-text">Sukimatch</h2>
           <h3 class="section-subheading text-muted">In this project we created the request for proposal, serveral banners and a landing page by using Vue framework
               <br><br><a href="https://sukimatch-f887f.firebaseapp.com/" target = "_blank">Click here to see my presentation →</a></h3>
+              <!-- <a href="../assets/img/sukimatch/rfp.png">The request for proposal</a> -->
         </div>
         <div class="image full"><img class="live-image" src="../assets/img/sukimatch/sukimatch.png" style="width: 100%; height:100%"></div>
       </div>
