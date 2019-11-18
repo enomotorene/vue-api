@@ -40,7 +40,7 @@ export default {
                 img: require('../assets/img/sukimatch/sukimatch.png'),
                 caption: 'SUKIMATCH',
                 title: 'WEBESITE, BANNER DESGIN, RFP',
-                url: "https://sukimatch-f887f.firebaseapp.com/"
+                url: "/Sukimatch"
             },
             {
                 img: require('../assets/img/portfolio/greencosjapan.png'),
