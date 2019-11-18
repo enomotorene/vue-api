@@ -10,14 +10,7 @@
       </div>
       <div class="row">
         <div class="col-md-4 col-sm-6 portfolio-item" v-for="(obj, key) in portfolioJSON" :key="key" :href="obj.url">
-          
-            <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-
-              </div>
-            </div>
             <a :href="obj.url" target=”_blank” ><img :src="obj.img" class="img-fluid"></a>
-          
           <div class="portfolio-caption works-text">
             <h4 class="works-text">{{ obj.caption }}</h4>
             <p class="text-muted works-text">{{ obj.title }}</p>
@@ -91,8 +84,8 @@ export default {
 </script>
 
 <style lang="css">
-/* .img-fluid {
-  width: 100%;
+/* a.sk-hover {
+  background: lawngreen;
 } */
 
 .works-text {
