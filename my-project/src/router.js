@@ -57,11 +57,11 @@ const router = new VueRouter({
             name: 'Graduate',
             component: load('Graduate')
         },
-        // {
-        //     path: '/skills',
-        //     name: 'Skills',
-        //     component: load('Skills')
-        // }
+        {
+            path: '/sukimatch',
+            name: 'Sukimatch',
+            component: load('Sukimatch')
+        }
     ]
 })
 

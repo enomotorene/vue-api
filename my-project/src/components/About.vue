@@ -65,7 +65,7 @@ In the future, I would like to be a successful web developer.</h3>
                 </div>
               </div>
             </li>
-            <li class="timeline-inverted">
+            <li>
               <div class="timeline-image">
                 <img class="rounded-circle img-fluid" src="img/about/2.jpg" alt="">
               </div>
@@ -102,7 +102,7 @@ by using Laravel PHP framework.<br>
         <div class="col-md-6 left">
           <h4 class="service-heading about-text">EDUCATION</h4>
           <ul class="left">      
-            <li>
+            <li class="timeline-inverted">
               <div class="timeline-panel">
                 <div class="timeline-heading">
                   <h4 class="about-text">2015.08 - 2018.06</h4>

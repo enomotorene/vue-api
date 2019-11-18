@@ -27,57 +27,32 @@ export default {
         portfolioJSON: [
             
             {
-                img: require('../assets/img/graduate/startsida1.png'),
-                caption: 'Forskartorget',
-                title: 'WEBSITE',
-                
+                img: require('../assets/img/graduate/startsida1.png'),      
             },
             {
                 img: require('../assets/img/graduate/startsida2.png'),
-                caption: 'Pluscap',
-                title: 'WEBSITE',
-               
             },
             {
-                img: require('../assets/img/graduate/startsida3.png'),
-                caption: 'Internship at IzumoBASE, INC.',
-                title: 'WEBSITE',
-                
+                img: require('../assets/img/graduate/startsida3.png'),             
             },
             {
-                img: require('../assets/img/graduate/startsida4.png'),
-                caption: 'Paydrive',
-                title: 'WEBSITE',
-                
+                img: require('../assets/img/graduate/startsida4.png'),               
             },
             {
-                img: require('../assets/img/graduate/startsida5.png'),
-                caption: 'Södertörns högskola',
-                title: 'School project. App design, logo, poster etc.',
-                
+                img: require('../assets/img/graduate/startsida5.png'),               
             },
             {
-                img: require('../assets/img/graduate/produktsida.png'),
-                caption: 'Södertörns högskola',
-                title: 'Graduation project',
-                
+                img: require('../assets/img/graduate/produktsida.png'),              
             },
             {
                 img: require('../assets/img/graduate/tamatechsida.png'),
-                caption: 'Paydrive',
-                title: 'WEBSITE',
-            },
+           },
             {
                 img: require('../assets/img/graduate/kontaktsida.png'),
-                caption: 'Paydrive',
-                title: 'WEBSITE',
-            },
+           },
             {
                 img: require('../assets/img/graduate/kontaktsida.png'),
-                caption: 'Paydrive',
-                title: 'WEBSITE',
-                //url: "<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/"+res2+"\"  frameborder=\"0\" allowfullscreen></iframe>"
-            }
+          }
             
         ]
     })

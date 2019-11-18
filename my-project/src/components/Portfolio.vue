@@ -4,10 +4,11 @@
       <div class="row text-left">
         <div class="col-md-8 top-portfolio-bg portfolio-text">
          <h2 class="section-heading text-uppercase top-portfolio-title">Works</h2>
-         <h4 class="text-muted top-page" ><a href="https://greencosjapan.com/" class="portfolio-link" style="">Greencosjapan</a></h4>
-         <h4 class="text-muted top-page"><a href="https://www.pluscap.se/" class="portfolio-link" style="">Pluscap</a></h4>
-         <h4 class="text-muted top-page"><a href="https://www.izumobase.com/" class="portfolio-link" style="">IzumoBASE, INC.</a></h4>
-         <h4 class="text-muted top-page"><a href="https://www.paydrive.se/" class="portfolio-link" style="">Paydrive</a></h4><br>
+         <h4 class="text-muted common-link" ><a href="https://sukimatch-f887f.firebaseapp.com/" class="default-link" target = "_blank">Sukimatch</a></h4>
+         <h4 class="text-muted common-link" ><a href="https://greencosjapan.com/" class="default-link" target = "_blank">Greencosjapan</a></h4>
+         <h4 class="text-muted common-link"><a href="https://www.pluscap.se/" class="default-link" target = "_blank">Pluscap</a></h4>
+         <h4 class="text-muted common-link"><a href="https://www.izumobase.com/" class="default-link" target = "_blank">IzumoBASE, INC.</a></h4>
+         <h4 class="text-muted common-link"><a href="https://www.paydrive.se/" class="default-link" target = "_blank">Paydrive</a></h4><br>
          <a class="btn btn-xl text-uppercase js-scroll-trigger btn-portfolio" href="/Works" style="text-align:left;">View More</a>
         </div>  
       </div>
@@ -60,13 +61,13 @@ section.top-page {
   font-family: "Baskerville";
 }
 
-h4.top-page {
+h4.common-link {
   color: #ffffff;
   font-family: "Baskerville";
   cursor: pointer;
 }
 
-h4 a.portfolio-link {
+h4 a.default-link {
   color:#ffffff;
   text-decoration:none;
   
@@ -75,7 +76,7 @@ h4 a.portfolio-link {
 a {cursor: pointer;}
 
 
-h4.top-page:hover {
+h4.common-link:hover {
   background-color: rgb(0, 0, 0);
   background: rgba(143, 122, 219, 0.3);
 }
