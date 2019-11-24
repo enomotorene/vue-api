@@ -11,6 +11,9 @@ function load (componentName) {
 
 const router = new VueRouter({
     mode: 'history', //seo frendly
+    scrollBehavior(to, from, savedPosition) {
+        return { x: 0, y: 0}
+    },
     routes: [
         {
             path: '/',
@@ -61,6 +64,10 @@ const router = new VueRouter({
             path: '/sukimatch',
             name: 'Sukimatch',
             component: load('Sukimatch')
+        },
+        {
+            path: '*',
+            redirect: '/'
         }
     ]
 })
